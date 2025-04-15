@@ -6,6 +6,8 @@ An open protocol for per-user storage on the Web
 
 Read more [on the protocol](https://remotestorage.io/) and [its apps](https://remotestorage.io/apps.html#apps)
 
+> Check the [online demo here](https://coderofsalvation.codeberg.page/aframe-remotestorage/)
+
 [![](README.jpg)](README.mp4)
 
 ## Installation
