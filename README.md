@@ -6,10 +6,7 @@ An open protocol for per-user storage on the Web
 
 Read more [on the protocol](https://remotestorage.io/) and [its apps](https://remotestorage.io/apps.html#apps)
 
-<video width="320" height="240" controls>
-  <source src="https://codeberg.org/coderofsalvation/aframe-remotestorage/raw/branch/master/README.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![README.jpg](README.mp4)
 
 ## Installation
 
