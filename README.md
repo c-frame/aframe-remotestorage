@@ -6,7 +6,7 @@ An open protocol for per-user storage on the Web
 
 Read more [on the protocol](https://remotestorage.io/) and [its apps](https://remotestorage.io/apps.html#apps)
 
-<img src="README.mp4"/>
+<video src="README.mp4"/>
 
 ## Installation
 
