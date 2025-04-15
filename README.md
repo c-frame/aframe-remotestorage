@@ -14,7 +14,7 @@ Read more [on the protocol](https://remotestorage.io/) and [its apps](https://re
 
 ```
     <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
-    <script src="build/aframe-remotestorage.js"></script> 
+    <script src="build/aframe-remotestorage.min.js"></script> 
     <style type="text/css">
       #remotestorage-widget {
         z-index: 21000000;
