@@ -37,3 +37,18 @@ Read more [on the protocol](https://remotestorage.io/) and [its apps](https://re
 ```
 
 > See [index.html](index.html) as an example, which demonstrates a [store.js](store.js) component which uses the [aframe-remotestorage](build/aframe-remotestorage.js) AFRAME component.
+
+## Where is the data stored?
+
+* websites supporting [remotestorage protocol](https://remotestorage.io):
+  * 5apps
+* dropbox (adapter)
+* gdrive (adapter)
+
+## Where can I view/edit the data?
+
+Simple! With other webapps which support remotestorage :)
+
+* [remotestorage-browser](https://remotestorage-browser.5apps.com)
+* [inspektor](https://inspektor.5apps.com/)
+* [more apps](https://remotestorage.io/apps.html#apps)
