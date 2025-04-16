@@ -52,3 +52,10 @@ Simple! With other webapps which support remotestorage :)
 * [remotestorage-browser](https://remotestorage-browser.5apps.com)
 * [inspektor](https://inspektor.5apps.com/)
 * [more apps](https://remotestorage.io/apps.html#apps)
+
+## Developer docs
+
+Developers can use/access the `remoteStorage`-object (initialized in the [aframe-remotestorage.js](index.js) component).<br>
+Then, they can do various operations (demonstrated in `load()` and `save()` of [store.js](store.js)) which are documented here:
+
+* https://remotestoragejs.readthedocs.io/en/latest/js-api/base-client.html
