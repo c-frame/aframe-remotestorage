@@ -77,4 +77,4 @@ Simple! With other webapps which support remotestorage :)
 Developers can use/access the `remoteStorage`-object (initialized in the [aframe-remotestorage.js](index.js) component).<br>
 Then, they can do various operations (demonstrated in `load()` and `save()` of [store.js](store.js)) which are documented here:
 
-* https://remotestoragejs.readthedocs.io/en/latest/js-api/base-client.html
+* https://remotestorage.io/rs.js/docs/api/baseclient/classes/BaseClient.html 
