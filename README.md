@@ -51,7 +51,7 @@ Read more [on the protocol](https://remotestorage.io/) and [its apps](https://re
 1. for storage get an account on [5apps.com](5apps.com), dropbox, gdrive or **ideally** selfhost [armadietto](https://github.com/remotestorage/armadietto)
 2. open the [online demo](https://coderofsalvation.codeberg.page/aframe-remotestorage/)
 3. click the 'connect storage'-widget
-4. enter your account email
+4. enter your account address 
 
 > Once you're connected try modifying the scene:
 
