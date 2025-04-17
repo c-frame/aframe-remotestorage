@@ -10,12 +10,23 @@
         top: 0;
         right: 0;
       }
+      .usage{
+	position: fixed;
+	background: white;
+	width: 140px;
+	height: 19px;
+	z-index: 99999;
+	bottom: 20;
+	left: 20;
+	border-radius: 10px;
+	border: 4px solid #888;
+	padding: 5px;
+	font-family: sans-serif;
+      }
     </style>
   </head>
   <body>
-    <div class="rs-widget rs-state-initial" style="position: fixed; width: 140px; height: 36px; z-index: 99999;">
-      <a target="_blank" href="https://github.com/c-frame/aframe-remotestorage">Usage & source</a>
-    </div>
+    <div class="usage"><a target="_blank" href="https://github.com/c-frame/aframe-remotestorage">Usage & source</a></div>
 
     <a-scene remotestorage="dropbox: apikey; googledrive: apikey; logging: true; folder: aframe">
       <a-entity store="file: scene.html">
