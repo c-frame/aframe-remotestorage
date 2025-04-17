@@ -45,6 +45,25 @@ Read more [on the protocol](https://remotestorage.io/) and [its apps](https://re
 * dropbox (adapter)
 * gdrive (adapter)
 
+
+## Demo explanation 
+
+1. for storage get an account on [5apps.com](5apps.com), dropbox, gdrive or **ideally** selfhost [armadietto](https://github.com/remotestorage/armadietto)
+2. open the [online demo](https://coderofsalvation.codeberg.page/aframe-remotestorage/)
+3. click the 'connect storage'-widget
+4. enter your account email
+
+> Once you're connected try modifying the scene:
+
+5. launch the AFRAME designer (ctrl+shift+i)
+6. modify some objects
+7. optional: run `$('a-sphere').setAttribute("scale","0.2 0.2 0.2")`
+8. now reload the page
+
+> Profit! the scene is now saved/loaded to/from your storage.
+
+9. verify whether a `myapp`-folder was written to your storage
+
 ## Where can I view/edit the data?
 
 Simple! With other webapps which support remotestorage :)
