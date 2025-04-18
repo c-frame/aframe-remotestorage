@@ -55,7 +55,7 @@ Read more [on the protocol](https://remotestorage.io/) and [its apps](https://re
 
 > Once you're connected try modifying the scene:
 
-5. launch the AFRAME designer (ctrl+shift+i)
+5. launch the AFRAME designer by pressing 'editor'-button (or ctrl+shift+i) 
 6. modify some objects
 7. optional: run `$('a-sphere').setAttribute("scale","0.2 0.2 0.2")`
 8. now reload the page
