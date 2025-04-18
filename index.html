@@ -10,6 +10,7 @@
         top: 0;
         right: 0;
       }
+      #edit,
       .usage{
 	position: fixed;
 	background: white;
@@ -26,7 +27,10 @@
     </style>
   </head>
   <body>
-    <div class="usage"><a target="_blank" href="https://github.com/c-frame/aframe-remotestorage">Usage & source</a></div>
+    <button id="edit" style="bottom:80px; height:62px">editor</button>
+    <div class="usage">
+      <a target="_blank" href="https://github.com/c-frame/aframe-remotestorage">Usage & source</a>
+    </div>
 
     <a-scene remotestorage="dropbox: apikey; googledrive: apikey; logging: true; folder: aframe">
       <a-entity store="file: scene.html">
@@ -37,5 +41,14 @@
         <a-sky color="#ECECEC"></a-sky>
       </a-entity>
     </a-scene>
+
+
+    <script>
+      document.querySelector("#edit").addEventListener('click', function(){
+	const scene = document.querySelector("a-scene")
+	scene.setAttribute("aframe-inspector","")
+	scene.components.inspector.openInspector()
+      })
+    </script>
   </body>
 </html>
