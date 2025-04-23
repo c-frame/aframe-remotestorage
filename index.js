@@ -7,7 +7,8 @@ AFRAME.registerComponent('remotestorage',{
     skipInitial:    {type:"bool", "default":false},
     logging:        {type:"bool", "default":false},
     modalBackdrop:  {type:"string", "default":"onlySmallScreens"}, // or "false" or "true"
-    folder:         {type:"string"}
+    folder:         {type:"string"},
+    domid:          {type:"string"}
   },
   init: function(){
     let apis = {}
@@ -29,6 +30,6 @@ AFRAME.registerComponent('remotestorage',{
     if( opts.modalBackdrop == "false" ) opts.modalBackdrop = false
     if( opts.modalBackdrop == "true"  ) opts.modalBackdrop = true
     widget = this.widget = new Widget(remoteStorage, opts)
-    widget.attach();
+    widget.attach( this.data.domid );
   }
 })
