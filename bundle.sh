@@ -7,9 +7,12 @@ set -xe
   curl "https://unpkg.com/remotestorage-widget@1.6.0/build/widget.js"            && echo ";" && \
   cat index.js
   echo "" # trailing linebreak for cat-friendly js-bundling
-
 } > $OUT.js
 
-command -v minify && minify -o $OUT.min.js $OUT.js 
+command -v minify && {
+	set -x
+  minify -o $OUT.min.js $OUT.js 
+  echo -e "\n" >> $OUT.min.js # trailing linebreak for cat-friendly js-bundling
+}
 
 ls -lh build
